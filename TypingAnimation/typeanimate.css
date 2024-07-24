@@ -17,7 +17,7 @@ body{
     font-weight: 700;
     border-right: 0.15em solid rgb(247, 4, 174);
     white-space: nowrap;
-    animation: typing 3s steps(40, end), infinite
+    animation: typing 3s steps(40, end), blink-caret .10s step-end infinite
 }
 @keyframes typing{
     from{
